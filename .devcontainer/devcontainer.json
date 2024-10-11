@@ -1,8 +1,7 @@
 {
-    "name": "TAMIL Codespace",
+    "name": "My Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
-    "postStartCommand": "echo '*'; echo '*         @Spike_Magic Bot Running      *'; echo '*'; python /workspaces/TAMIL/LEGEND.py",
-    "postCreateCommand": "pip install pymongo python-telegram-bot pyTelegramBotAPI certifi && chmod +x /workspaces/TAMIL/*",
+    "postStartCommand": "python3 /workspaces/unrealhaxddos/unrealhax.py",
     "customizations": {
         "vscode": {
             "settings": {
